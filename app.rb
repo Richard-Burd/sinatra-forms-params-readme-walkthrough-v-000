@@ -19,5 +19,6 @@ class App < Sinatra::Base
     erb :burd_answers
     "Here is the hash of data: #{params.to_s}" #comment me out to see the "erb :burd_answers" instead
     "\n...and here is the first key: #{params[:first_param]}"
+    "\n...and here is the other key: #{params[:second_param]}"
   end
 end
