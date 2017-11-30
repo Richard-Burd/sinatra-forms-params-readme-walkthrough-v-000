@@ -37,4 +37,5 @@ describe "App" do
 
       expect(last_response.body).to eq("My name is #{params[:name]}, and I love #{params[:favorite_food]}")
     end
+  end 
 end
