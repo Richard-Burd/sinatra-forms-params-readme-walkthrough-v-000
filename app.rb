@@ -17,6 +17,6 @@ class App < Sinatra::Base
 
   post '/burd_answers' do
     params.to_s
-    # erb :burd_answers
+    erb :burd_answers
   end
 end
