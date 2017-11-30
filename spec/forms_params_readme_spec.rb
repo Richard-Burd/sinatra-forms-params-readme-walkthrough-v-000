@@ -20,9 +20,9 @@ describe "App" do
     end
   end
 
-  describe 'POST /food' do
+  describe 'POST /burd_page' do
     it 'responds with a 200' do
-      post '/food'
+      post '/burd_page'
 
       expect(last_response.status).to eq(200)
     end
