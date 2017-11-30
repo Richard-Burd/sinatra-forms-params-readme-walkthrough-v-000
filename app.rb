@@ -10,10 +10,6 @@ class App < Sinatra::Base
     "My name is #{params[:name]}, and I love #{params[:favorite_foods]}"
   end
 
-  post '/food' do
-    "My name is #{params[:name]}, and I love #{params[:favorite_foods]}"
-  end
-
   # OK these are my custom code snippets
   get '/burd_page' do
     erb :burd_page
