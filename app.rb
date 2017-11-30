@@ -18,7 +18,7 @@ class App < Sinatra::Base
   post '/burd_answers' do
     erb :burd_answers
 
-    # decomment this stuff out below to see the alternative answers
+    # comment this stuff out below to see the alternative answer above: "erb :burd_answers"
      "Here is the hash of data: #{params.to_s}
      \n...and here is the first key: #{params[:first_param]}
      \n...and here is the other key: #{params[:second_param]}"
