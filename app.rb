@@ -16,7 +16,7 @@ class App < Sinatra::Base
   end
 
   post '/burd_answers' do
-    #erb :burd_answers
+    erb :burd_answers
     "Here is the hash of data: #{params.to_s}"
   end
 end
