@@ -35,7 +35,7 @@ describe "App" do
 
       post '/burd_answers', params
 
-      expect(last_response.body).to eq("My name is #{params[:first_param]}, and I love #{params[:second_param]}")
+      expect(last_response.body).to eq("Hey so the (first_param) value transfered is: #{params[:first_param]}, and of course the other (second_param) value is: #{params[:second_param]}")
     end
   end
 end
